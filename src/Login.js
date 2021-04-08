@@ -37,13 +37,16 @@ function Login() {
     }
 
     return (
+        
         <div className='login'>
+            
             <Link to='/'>
            <img 
            className='Login_logo'
-           src="https://www.freelogodesign.org/file/app/client/thumb/16abe0e6-c591-44f7-9325-c83509d73904_200x200.png?1612269671198" alt='logo'/>
+           src="https://www.freelogodesign.org/file/app/client/thumb/6a11010e-9fd9-4f30-8d9f-8e74abc79fd0_200x200.png?1612339301449" alt='logo'/>
 
             </Link>
+            
             <div className="login_container">
                <h1>Sign-in</h1>
                <br></br>

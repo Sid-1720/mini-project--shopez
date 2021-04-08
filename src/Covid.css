@@ -1,0 +1,30 @@
+.app_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.app-stats{
+    display:flex;
+    justify-content: space-between;
+}
+
+body{
+    background-color: #f5f6fa;
+    
+}
+.ap-main{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+@media(max-width:990px){
+    .app{
+        flex-direction: column;
+    }
+}
+
+.app-left{
+    flex:0.9;
+}

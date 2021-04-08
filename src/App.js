@@ -3,9 +3,12 @@ import './App.css';
 import { BrowserRouter as Router ,Switch ,Route } from "react-router-dom";
 import Login from './Login';
 import { auth } from './firebase';
+import Covid from './Covid';
 
 
 function App() {
+
+ 
 
   /*useEffect(() => {
     auth.onAuthStateChanged(authUser => {
@@ -25,18 +28,16 @@ function App() {
   return (
     <Router>
     <div className="app">
-      <p>Hello world</p>
+      <p>Home</p>
       <Switch>
         <Route path="/login">
-          
           <Login />
-        </Route>
+          </Route>
+          <Route path="/Covid"><Covid />
+          </Route>
       </Switch>
-      
-
-    
     </div>
-    </Router>
+  </Router>
   );
 }
 
